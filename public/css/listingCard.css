@@ -1,0 +1,40 @@
+/* cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+.card-img-top{
+    width: 100% !important;
+    object-fit: cover !important;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text{
+    font-weight: 500;
+}
+
+.click-card{
+    text-decoration: none !important;
+}
+
+
+
+/* Hover effect */
+.card-img-overlay{
+    opacity: 0;
+    height: 20rem;
+}
+.card-img-overlay:hover {
+    opacity: 0.3;
+    background-color: #ebebeb;
+
+}
+
+
